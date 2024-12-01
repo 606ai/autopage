@@ -1,0 +1,52 @@
+{
+  "workspace": {
+    "name": "AutoPage",
+    "description": "AI-powered website builder platform",
+    "defaultBranch": "main",
+    "modules": [
+      {
+        "name": "web",
+        "path": ".",
+        "type": "next",
+        "startCommand": "npm run dev",
+        "buildCommand": "npm run build",
+        "testCommand": "npm run test",
+        "lintCommand": "npm run lint",
+        "env": {
+          "NODE_ENV": "development"
+        }
+      }
+    ],
+    "tasks": [
+      {
+        "name": "Install Dependencies",
+        "command": "npm install",
+        "cwd": "."
+      },
+      {
+        "name": "Start Development Server",
+        "command": "npm run dev",
+        "cwd": "."
+      },
+      {
+        "name": "Build",
+        "command": "npm run build",
+        "cwd": "."
+      },
+      {
+        "name": "Lint",
+        "command": "npm run lint",
+        "cwd": "."
+      }
+    ],
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "dsznajder.es7-react-js-snippets",
+      "chakrounanas.turbo-console-log",
+      "christian-kohler.path-intellisense",
+      "formulahendry.auto-rename-tag"
+    ]
+  }
+}

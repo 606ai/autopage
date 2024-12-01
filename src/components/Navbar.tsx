@@ -80,7 +80,12 @@ export default function Navbar() {
               <NavLink href="/templates">Templates</NavLink>
               <NavLink href="/features">Features</NavLink>
               <NavLink href="/pricing">Pricing</NavLink>
-              <NavLink href="/demo/object-recognition">Live Demo</NavLink>
+              <NextLink href="/demo/object-recognition" passHref>
+                <Link>Live Demo</Link>
+              </NextLink>
+              <NextLink href="/builder" passHref>
+                <Link>Website Builder</Link>
+              </NextLink>
               <NavLink href="/blog">Blog</NavLink>
             </HStack>
           </HStack>
