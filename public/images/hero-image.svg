@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hero Image</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4299E1" offset="0%"></stop>
+            <stop stop-color="#2B6CB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="800" height="600"></rect>
+        <circle id="Circle-1" fill="#FFFFFF" opacity="0.1" cx="200" cy="300" r="80"></circle>
+        <circle id="Circle-2" fill="#FFFFFF" opacity="0.1" cx="600" cy="300" r="120"></circle>
+        <circle id="Circle-3" fill="#FFFFFF" opacity="0.1" cx="400" cy="150" r="60"></circle>
+        <circle id="Circle-4" fill="#FFFFFF" opacity="0.1" cx="400" cy="450" r="100"></circle>
+    </g>
+</svg>
